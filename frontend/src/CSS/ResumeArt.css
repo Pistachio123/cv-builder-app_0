@@ -1,0 +1,111 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  
+}
+
+.top-bar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.name {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.side-bar {
+  width: 300px;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.mugshot {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 8px;
+}
+
+.social {
+  margin-bottom: 10px;
+}
+
+.twitter::before {
+  content: "Twitter ";
+}
+
+.pinterest::before {
+  content: "Pinterest ";
+}
+
+.linked-in::before {
+  content: "Linked-in ";
+}
+
+.caps {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.side-header {
+  margin-top: 20px;
+}
+
+.list-thing {
+  margin-bottom: 5px;
+}
+
+.content-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.separator {
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  margin-bottom: 20px;
+}
+
+.greyed {
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.long-margin {
+  margin-bottom: 20px;
+}
+
+.light {
+  font-weight: lighter;
+  margin-bottom: 5px;
+}
+
+.justified {
+  text-align: justify;
+}
